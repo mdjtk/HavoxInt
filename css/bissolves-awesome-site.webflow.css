@@ -4601,10 +4601,6 @@ blockquote {
     zoom: 0.75;
   }
 
-  .preloader {
-    zoom: calc(1 / 0.75);
-  }
-
   .preload-text {
     white-space: nowrap;
   }
