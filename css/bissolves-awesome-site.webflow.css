@@ -2684,7 +2684,7 @@ blockquote {
 
 .footer {
   z-index: 1;
-  background-color: var(--_color---grey--01);
+  background-color: var(--_color---grey--05);
   color: var(--_color---white--01);
   position: relative;
   overflow: hidden;
@@ -2708,7 +2708,8 @@ blockquote {
   grid-column-gap: 3rem;
   grid-row-gap: 3rem;
   border-radius: var(--_radius---radius-7xl);
-  background-color: var(--_color---grey--02);
+  background-color: var(--_color---black--05);
+  background-image: linear-gradient(#0006, #fff6);
   flex-flow: column;
   width: 100%;
   max-width: 42.5rem;
@@ -2717,6 +2718,7 @@ blockquote {
   padding: 2.5rem 3.75rem;
   display: flex;
   overflow: hidden;
+  box-shadow: inset 0 0 40px #fff, inset 0 0 4px #fffc;
 }
 
 .form_form {
@@ -2994,7 +2996,7 @@ blockquote {
 
 .footer-main {
   z-index: 2;
-  background-image: linear-gradient(180deg, var(--_color---grey--01), #0000);
+  background-image: linear-gradient(180deg, var(--_color---grey--05), #0000);
   position: relative;
 }
 
@@ -4148,16 +4150,6 @@ blockquote {
   .footer-bottom-row {
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
-    flex-flow: column;
-    height: auto;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-
-  .footer-bottom-logo {
-    width: 12rem;
-    position: static;
-    margin-left: 0;
   }
 
   .cta-form {
@@ -4179,15 +4171,6 @@ blockquote {
     grid-row-gap: 1rem;
     flex-flow: column;
     justify-content: flex-start;
-    align-items: center;
-  }
-
-  .hero-heading {
-    font-size: var(--font-size--h1);
-  }
-
-  .subheading-text.hero {
-    font-size: var(--font-size--body-m);
   }
 
   .team-card-name {
@@ -4498,34 +4481,6 @@ blockquote {
   .rich-text-block h2 {
     margin-top: 1.75rem;
   }
-
-  .footer-bottom-logo {
-    width: 8rem;
-  }
-
-  .footer-link-list {
-    grid-template-columns: 1fr;
-  }
-
-  .footer-social-link {
-    font-size: var(--font-size--body-s);
-  }
-
-  .footer-bottom-row-text {
-    text-align: center;
-  }
-
-  .cta-form-card {
-    padding: 1.5rem;
-  }
-
-  .hero-heading {
-    font-size: var(--font-size--h2);
-  }
-
-  .main-wrapper {
-    zoom: 0.75;
-  }
 }
 
 #w-node-_5af00600-6965-ff8b-e344-9f61328dffac-45865407 {
@@ -4639,4 +4594,18 @@ blockquote {
 
 .video-modal.is-open {
   display: flex;
+}
+
+@media screen and (max-width: 479px) {
+  .main-wrapper {
+    zoom: 0.75;
+  }
+
+  .preloader {
+    zoom: calc(1 / 0.75);
+  }
+
+  .preload-text {
+    white-space: nowrap;
+  }
 }
