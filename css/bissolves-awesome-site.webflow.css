@@ -4522,6 +4522,10 @@ blockquote {
   .hero-heading {
     font-size: var(--font-size--h2);
   }
+
+  .main-wrapper {
+    zoom: 0.75;
+  }
 }
 
 #w-node-_5af00600-6965-ff8b-e344-9f61328dffac-45865407 {
