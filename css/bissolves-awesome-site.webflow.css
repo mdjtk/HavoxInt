@@ -1996,6 +1996,7 @@ blockquote {
 
 .testimonial-default-name {
   font-weight: var(--font-weight--semibold);
+  font-size: 1.875em;
 }
 
 .testimonial-default-info {
@@ -2027,10 +2028,11 @@ blockquote {
   flex-flow: column;
   padding: 2.5rem;
   display: flex;
+  position: relative;
 }
 
 .testimonial-default:where(.w-variant-65afc4f9-031d-a5f3-faf2-831aa3d6a53a) {
-  display: none;
+  
 }
 
 .testimonial-video {
@@ -3285,20 +3287,20 @@ blockquote {
 .team-social-icon {
   aspect-ratio: 1;
   border-radius: var(--_radius---round);
-  background-color: var(--_color---white--04);
+  background-color: var(--_color---black--04);
   width: 3rem;
-  color: var(--_color---white--01);
+  color: var(--_color---black--01);
   object-fit: cover;
   flex: none;
   justify-content: center;
   align-items: center;
   display: flex;
   overflow: hidden;
-  box-shadow: inset 0 0 12px #fff;
+  box-shadow: inset 0 0 12px #000;
 }
 
 .team-social-icon:hover {
-  box-shadow: inset 0 0 20px #fff;
+  box-shadow: inset 0 0 20px #000;
 }
 
 .team-social-link-wrap {
@@ -3917,7 +3919,9 @@ blockquote {
     --_radius---radius-l: .75rem;
     --_radius---radius-m: .5rem;
   }
-
+.section.hero{
+    padding-top: 8em;
+  }
   .styleguide-typo {
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
