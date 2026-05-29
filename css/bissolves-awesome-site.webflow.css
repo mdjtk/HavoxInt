@@ -241,8 +241,8 @@ blockquote {
 }
 
 .section.hero {
-  background-color: var(--_color---grey--01);
-  color: var(--_color---white--01);
+  background-image: linear-gradient(0deg, var(--_color---grey--05), #0000);
+  color: var(--_color---grey--01);
   flex-flow: column;
   display: flex;
   position: relative;
@@ -770,7 +770,7 @@ blockquote {
 .hero-eye-brow {
   grid-column-gap: .5rem;
   grid-row-gap: .5rem;
-  border: 1px solid var(--_color---white--05);
+  border: 1px solid var(--_color---grey--04);
   border-radius: var(--_radius---round);
   font-size: var(--font-size--body-xs);
   font-weight: var(--font-weight--medium);
@@ -809,7 +809,7 @@ blockquote {
 }
 
 .subheading-text.hero {
-  color: var(--_color---white--01);
+  color: var(--_color---grey--01);
 }
 
 .subheading-text.on-cta-card {
@@ -818,17 +818,15 @@ blockquote {
 }
 
 .hero-heading {
-  background-image: linear-gradient(90deg, var(--_color---hologram--0), var(--_color---hologram--25) 25%, var(--_color---hologram--50) 50%, var(--_color---hologram--75) 75%, var(--_color---hologram--100));
+  background-image: linear-gradient(90deg, #4d4b4b, #353434 20%, #4e4a4a 70%);
   opacity: 1;
   color: var(--_color---grey--01);
   -webkit-text-fill-color: transparent;
-  mix-blend-mode: hard-light;
   -webkit-background-clip: text;
   background-clip: text;
 }
 
 .logo-marquee-section {
-  display: none;
   z-index: 2;
   background-image: linear-gradient(180deg, #0000, var(--_color---grey--05));
   position: relative;
@@ -3005,7 +3003,7 @@ blockquote {
 .navbar-brand-logo {
   aspect-ratio: 1;
   object-fit: cover;
-  width: 1.75rem;
+  width: 2.75rem;
 }
 
 .navbar-brand-link {
@@ -3505,7 +3503,7 @@ blockquote {
 }
 
 .preload-logo {
-  width: 1em;
+  width: 2em;
 }
 
 .rich-text-block ol {
