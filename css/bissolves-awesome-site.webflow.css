@@ -1641,6 +1641,7 @@ blockquote {
 
 .casestudy-card-image-wrap {
   z-index: 1;
+  aspect-ratio: 3 / 2;
   border-radius: var(--_radius---radius-7xl);
   background-color: var(--_color---black--01);
   position: relative;
@@ -3315,6 +3316,13 @@ blockquote {
   inset: auto 0% 0%;
 }
 
+.testimonial-default .team-social-link-wrap {
+  position: static;
+  justify-content: center;
+  margin-top: auto;
+  padding: 2rem 0 0;
+}
+
 .team-social-icon-icon {
   flex-direction: column;
   justify-content: center;
@@ -4366,7 +4374,8 @@ blockquote {
   }
 
   .casestudy-card-image-wrap {
-    aspect-ratio: 1;
+    aspect-ratio: 3 / 2;
+    width: 60%;
     border-radius: var(--_radius---radius-6xl);
   }
 
