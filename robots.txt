@@ -1,6 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /pages/401.html
-Disallow: /pages/404.html
 
 Sitemap: https://www.havoxinternational.com/sitemap.xml
